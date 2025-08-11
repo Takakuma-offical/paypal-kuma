@@ -6,8 +6,8 @@ const app = express();
 app.use(bodyParser.json());
 
 // 環境変数からPayPalのClient IDとSecretを取得
-const PAYPAL_CLIENT = Aazw8hhatDVfCi2w8siwqyeCXCiSaB4HDnYzflVHGsxBbXy4niEPMiB2MXpzbPirf21yLpOMyp0s0_Iv;
-const PAYPAL_SECRET = EMUILL346CFkpZcjQ7xe2Zz6Hb8rKKr7RlOLwsBHgoPoXuhHySEUeMQ_abLQtmoEI8iyase8bLdY2_QL;
+const PAYPAL_CLIENT = "Aazw8hhatDVfCi2w8siwqyeCXCiSaB4HDnYzflVHGsxBbXy4niEPMiB2MXpzbPirf21yLpOMyp0s0_Iv";
+const PAYPAL_SECRET = "EMUILL346CFkpZcjQ7xe2Zz6Hb8rKKr7RlOLwsBHgoPoXuhHySEUeMQ_abLQtmoEI8iyase8bLdY2_QL";
 const PAYPAL_API = 'https://api-m.sandbox.paypal.com'; // sandbox用URL
 
 // 購入用エンドポイント
